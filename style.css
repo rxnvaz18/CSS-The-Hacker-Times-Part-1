@@ -5,13 +5,7 @@ header {
     font-size: 1.5em;
 }
 
-main {
-    font-family: Roboto Slab;
-    text-align:center;
-    font-size: x-large;
-}
-
-.date{
+.date {
     text-align:left;
     font-size:15px;
     color:#777;
@@ -25,9 +19,9 @@ nav li {
     height: 100%;
     color:#eee;
 }
-ul{
+
+ul {
     list-style-type: none;
-    
 }
 
 a {
@@ -57,4 +51,22 @@ body {
     border-radius: 5px;
     box-shadow: #ddd;
     padding: 50px 50px 10px 50px;
+}
+h5 {
+    color: red;
+    text-align:left
+}
+main {
+    font-family: Roboto Slab;
+    text-align:left;
+    font-size: 1em;
+}
+
+main img {
+    width:100%;
+}
+
+.more-articles {
+    columns: 2;
+
 }
