@@ -4,18 +4,16 @@ nav li {
     margin: 0 auto;
     height: 100%;
     color:#eee;
-     
 }
 ul{
     list-style-type: none;
-    margin-left: 0;
     
 }
 
-li{
+a {
     color: #777;
     padding: 5px;
-    
+    text-decoration: none; 
 }
 
 nav{ z-index: 1;
@@ -24,6 +22,7 @@ nav{ z-index: 1;
     top:0;
     border-top: 2px solid #eee;
     border-bottom: 2px solid #eee;
+    text-decoration: none;
 }
 body {
     font-family: Source Sans Pro;
