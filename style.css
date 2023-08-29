@@ -3,21 +3,39 @@ nav li {
     display: inline-block;
     margin: 0 auto;
     height: 100%;
+     
+}
+ul{
+    list-style-type: none;
+    
+}
+
+li{
+    color: #777;
+    
 }
 
 nav{ z-index: 1;
-    background-color: #777;
+    background-color: #eee;
     position: sticky;
     top:0;
+    border-color:#eee; 
 }
 body {
     font-family: Source Sans Pro;
+    background-color: #eee;
 }
-
+.newspaper-container{
+    background-color: white;
+    width: 700px;
+    border-radius: 5px;
+    box-shadow: #ddd;
+}
 header {
     font-family: Abril Fatface;
 }
 
 title {
     font-family: Roboto Slab;
+    text-align:center;
 }
