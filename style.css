@@ -24,12 +24,14 @@ nav{ z-index: 1;
 body {
     font-family: Source Sans Pro;
     background-color: #eee;
+    justify-content: center;
 }
 .newspaper-container{
     background-color: white;
     width: 700px;
     border-radius: 5px;
     box-shadow: #ddd;
+    padding: 50px 50px 10px 50px;
 }
 header {
     font-family: Abril Fatface;
