@@ -3,30 +3,36 @@ nav li {
     display: inline-block;
     margin: 0 auto;
     height: 100%;
+    color:#eee;
      
 }
 ul{
     list-style-type: none;
+    margin-left: 0;
     
 }
 
 li{
     color: #777;
+    padding: 5px;
     
 }
 
 nav{ z-index: 1;
-    background-color: #eee;
+    background-color: white;
     position: sticky;
     top:0;
-    border-color:#eee; 
+    border-top: 2px solid #eee;
+    border-bottom: 2px solid #eee;
 }
 body {
     font-family: Source Sans Pro;
     background-color: #eee;
     justify-content: center;
+
 }
 .newspaper-container{
+    margin: 0 auto;
     background-color: white;
     width: 700px;
     border-radius: 5px;
@@ -35,9 +41,13 @@ body {
 }
 header {
     font-family: Abril Fatface;
+    text-align:center;
 }
 
 title {
     font-family: Roboto Slab;
     text-align:center;
+}
+.date{
+    text-align:left;
 }
