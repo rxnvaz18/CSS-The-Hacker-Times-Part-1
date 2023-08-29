@@ -48,7 +48,7 @@ body {
     margin: 0 auto;
     background-color: white;
     width: 700px;
-    border-radius: 5px;
+    border-radius: 15px;
     box-shadow: 3px 3px 3px 3px #ddd;
     padding: 50px 50px 10px 50px;
 }
