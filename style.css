@@ -49,24 +49,51 @@ body {
     background-color: white;
     width: 700px;
     border-radius: 5px;
-    box-shadow: #ddd;
+    box-shadow: 10px 10px 10px 10px #ddd;
     padding: 50px 50px 10px 50px;
 }
+
+h2{
+    font-family: Roboto Slab;
+
+}
+
 h5 {
     color: red;
     text-align:left
 }
+
 main {
-    font-family: Roboto Slab;
-    text-align:left;
-    font-size: 1em;
+    font-family: Source Sans Pro;
+    font-size: 18px;
+    text-align: justify;
+    padding-bottom: 30px;
 }
 
 main img {
     width:100%;
 }
 
-.more-articles {
-    columns: 2;
-
+h4 {
+    margin-top: 0;
+    padding-top:15px;
+    font-family: Roboto Slab;
+    font-weight:600px;
 }
+
+.more-articles {
+    display: inline-block;
+    border-top:3px solid #ddd;
+    margin: 0 auto;
+    columns: 2;
+    text-align:justify;
+    font-size: 1em;
+}
+
+.more-articles img {
+    display: inline-block;
+    width:100%;
+    line-height: 2;
+    
+}
+
