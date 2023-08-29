@@ -10,3 +10,14 @@ nav{ z-index: 1;
     position: sticky;
     top:0;
 }
+body {
+    font-family: Source Sans Pro;
+}
+
+header {
+    font-family: Abril Fatface;
+}
+
+title {
+    font-family: Roboto Slab;
+}
