@@ -1,1 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab:wght@500&family=Source+Sans+Pro:wght@200;400;600&display=swap');
+nav li {
+    display: inline-block;
+    margin: 0 auto;
+    height: 100%;
+}
+
+nav{ z-index: 1;
+    background-color: #777;
+    position: sticky;
+    top:0;
+}
